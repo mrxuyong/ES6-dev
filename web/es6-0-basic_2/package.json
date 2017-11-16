@@ -1,0 +1,15 @@
+{
+  "name": "person",
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "babel -d build/ assets/",
+    "prepublish": "npm run compile"
+  },
+  "main": "build/person.js",
+  "dependencies": {
+    "core-js": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel": "^4.6.0"
+  }
+}
